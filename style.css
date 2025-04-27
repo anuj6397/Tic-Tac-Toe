@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    padding-left: 0px;
+}
+.nav-bar{
+    height: 100px;
+}
+
+h1{
+    font-size: 2.5rem;
+    background-color:rgba(55, 3, 3, 0.878);
+    color: whitesmoke;
+    text-align: center;
+    height: 70px;
+    line-height: 5rem;
+    
+    
+}
+body{
+    text-align: center;
+    background-color: rgba(45, 13, 13, 0.658);
+}
+
+.container{
+    height: 70vh;
+    margin-top: 3rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+
+}
+
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+
+   
+
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 0.85rem rgb(61, 1, 1);
+    font-size: 8vmin;
+    color: rgba(55, 3, 3, 0.878); 
+    background-color: rgba(233, 147, 147, 0.86);
+   
+
+
+}
+
+
+#msg{
+    font-size: 2rem;
+    color: yellowgreen;
+}
+.hide{
+    display: none;
+}
+ 
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7rem;
+    margin-top: 1.75rem;
+}
+
+
+
+#reset-btn{
+    padding: 0.85rem;
+    font-size: 1rem;
+    border-radius: 1rem;
+    background-color: rgb(97, 11, 11);
+    color: white;
+    border: none;
+    
+}
+#new-btn{
+    padding: 0.85rem;
+    font-size: 1rem;
+    border-radius: 1rem;
+    background-color: rgb(97, 11, 11);
+    color: white;
+    border: none;
+  
+
+}
